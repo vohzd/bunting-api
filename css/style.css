@@ -1,0 +1,52 @@
+body {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to bottom right, #2a2328, #4e2735);
+  width: 100%;
+  padding: 16px;
+}
+
+header h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+ol h2 {
+  color: black;
+}
+
+ol li {
+  margin-bottom: 16px;
+}
+
+ol li h2 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+section {
+ margin: 16px;
+ color: black;
+}
+
+.buy-cta {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.buy-cta button {
+  width: 50%;
+  padding: 8px;
+  background: #4e2735;
+  outline: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  border:none;
+}

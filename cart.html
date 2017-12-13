@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Bunting eCommerce Demo Homepage</title>
+      <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cart Page</h1>
+      <h3>profile_id: <span id="buntingProfileId"></span></h3>
+      <h4>logged in: <span id="isLoggedIn"></span></h4>
+    </header>
+    <section>
+      <ol class="products">
+        <li class="product">
+          <h2>Super Awesome Product</h2>
+          <span>£1337</span>
+        </li>
+        <li class="product">
+          <h2>Not So Awesome Product</h2>
+          <span>£3</span>
+        </li>
+        <li class="product">
+          <h2>Average Product</h2>
+          <span>£31</span>
+        </li>
+        <li class="product">
+          <h2>Total £1,371</h2>
+        </li>
+      </ol>
+      <div class="buy-cta" onClick="buyHandler()">
+        <button>BUY</button>
+      </div>
+      <a id="craftedEndpoint"></a>
+      <a href="./">Go Home</a>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
